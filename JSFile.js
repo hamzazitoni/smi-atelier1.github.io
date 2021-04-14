@@ -29,7 +29,7 @@ function avg(){
     var c = document.getElementById("C").value;
     var ai = document.getElementById("IA").value;
     
-    var v = (parseInt(c) + parseInt(ai));
+    var v = (parseInt(c) + parseInt(ai))/2;
     document.getElementById("output").innerHTML = v;
     
 }
