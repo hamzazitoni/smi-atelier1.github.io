@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>home page</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="JSFile.js"></script>
+    </head>
+    <body>
+        <main id="main-holder">
+        <form id="note-form">
+        <h1 align ='center'>HomePage</h1>
+        <label for="C">C :</label>
+        <input type="number" name="C" id="C"  class="note-form-field" min="0" max="20" step="0.001" required><br>
+        <label for="IA"> IA :</label>
+        <input type="number" name="IA" id="IA" class="note-form-field"min="0" max="20" step="0.001"><br><br>
+        <input type="button" id="note-form-submit" value="result" onclick = "avg()">
+        <p id="output"></p>
+    </form>
+</main>
+    </body>
+</html>
