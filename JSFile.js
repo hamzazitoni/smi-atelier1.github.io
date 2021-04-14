@@ -27,9 +27,9 @@ resultatbutton.addEventListener("click", (avg) => {
 })*/
 function avg(){
     var c = document.getElementById("C").value;
-    var ai = document.getElementById("IA").value;
+    var ia = document.getElementById("IA").value;
     
-    var v = (parseInt(c) + parseInt(ai))/2;
+    var v = (parseInt(c) + parseInt(ia)) / 2;
     document.getElementById("output").innerHTML = v;
     
 }
